@@ -1,3 +1,24 @@
+h1, h2, h3, h4, , h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+ }
+ img {
+    display: block;
+ }
+
+ .container { 
+max-width: 1158px; 
+padding-left: 15px;  
+padding-right: 15px; 
+margin-left: auto;
+margin-right: auto; 
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -9,6 +30,8 @@ body {
 .link, .address {
     text-decoration: none;
 }
+
+
 
 .logo-header {
     color: #2E2F42;
@@ -83,6 +106,18 @@ address {
    background-color:  #404BBF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+
+}
 .desc-text {
     background-color: #FFFFFF
 }
