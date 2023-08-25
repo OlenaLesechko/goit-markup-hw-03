@@ -16,10 +16,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.section {
-    padding-top: ;
-    padding-bottom: ;
-}
+
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -155,6 +152,7 @@ address {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 
 }
