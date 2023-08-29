@@ -1,6 +1,7 @@
 h1, h2, h3, h4, , h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
+    margin: 0;
 }
  ul, ol {
     margin-top: 0;
@@ -18,8 +19,6 @@ body {
 }
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -100,12 +99,15 @@ address {
     color: #404bbf
 }
 .contact-item {
+    display: block;
     font-style: normal;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .main-page {
     background: #2E2F42;
@@ -343,5 +345,6 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02em; 
+letter-spacing: 0.02em;
+max-width: 264px;
 }
